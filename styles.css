@@ -1,0 +1,44 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.cta-button {
+  border-radius: 0;
+  margin: 12px 0;
+}
+
+.cta-button:first-child {
+  margin-right: 10px;
+}
+.cta-button:last-child {
+  margin-left: 10px;
+}
+
+.room-images {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.tagline {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+}
